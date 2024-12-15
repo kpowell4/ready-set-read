@@ -1,0 +1,149 @@
+.dashboard {
+    position: relative;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align content */
+    background: url('../images/logo.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #200707; /* Adjust text color to contrast with the background */
+}
+
+.dashboard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the color and opacity as needed */
+    pointer-events: none; /* Ensure overlay doesn't interfere with content */
+    z-index: 1; /* Make sure the overlay appears above the background image */
+}
+
+.dashboard > * {
+    position: relative;
+    z-index: 2; /* Ensure content appears above the overlay */
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.header-box {
+    display: inline-block;
+    border: 2px solid #000; /* Box border */
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f2f2f2; /* Background color for box */
+    position: relative; /* To position the button inside */
+    height: 200px;
+    width: 98%;
+}
+
+.add-student-button {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    right: 10px;  /* Adjust as needed */
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #40ab44;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.add-student-button:hover {
+    background-color: #092d0b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ebcbcb;
+}
+
+th, td {
+    border: 1px solid #331919;
+    padding: 8px;
+}
+
+th {
+    background-color: #de7878;
+}
+
+.student-progress {
+    text-align: left;
+    padding-top: 40px;
+}
+
+h2, h3 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #358b35;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+input[type="submit"], button[type="button"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+button[type="button"] {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+/* Styles for the Cancel button */
+.btn-cancel {
+    position: absolute;
+    top: 225px;
+    right: 360px;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-cancel:hover {
+    background-color: #c0392b;
+}
+
+/* Styles for the Logout button */
+.btn-logout {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-logout:hover {
+    background-color: #c0392b;
+}
+
+
+

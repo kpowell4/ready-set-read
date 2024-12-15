@@ -1,0 +1,65 @@
+.my-cart-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart-items, .cart-summary {
+    margin-bottom: 40px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; /* Ensure space between items */
+}
+
+.book-item {
+    flex: 1 0 18%; /* Adjust to ensure 5 items per row */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    max-width: 18%; /* Ensure max width of each item */
+}
+
+.book-actions button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-actions button:hover {
+    background-color: #0056b3;
+}
+
+.cart-summary {
+    text-align: center;
+}
+
+.checkout-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.checkout-button:hover {
+    background-color: #218838;
+}

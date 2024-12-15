@@ -1,0 +1,153 @@
+/* General Styles */
+.student-form-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url('../images/logo.png') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+/* Form Container */
+.student-form {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px; /* Adjusted width for better spacing */
+    max-width: 100%; /* Ensures the form is responsive */
+}
+
+/* Form Heading */
+.student-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; /* Added this line to change the header color to black */
+}
+
+/* Form Group */
+.student-form .form-group {
+    margin-bottom: 15px;
+}
+
+.student-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.student-form .form-group input,
+.student-form .form-group select {
+    width: 100%;
+    padding: 10px; /* Adjusted padding for consistency */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Buttons */
+.student-form .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.student-form .buttons input[type="submit"],
+.student-form .buttons input[type="button"] {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.student-form .buttons input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+.student-form .buttons input[type="button"] {
+    background-color: #f44336;
+    color: white;
+}
+
+.student-form .buttons input[type="submit"]:hover {
+    background-color: #092d0b;
+}
+
+.student-form .buttons input[type="button"]:hover {
+    background-color: #092d0b;
+}
+
+/* Comment Group */
+.student-form .comment-group {
+    margin-bottom: 35px;
+}
+
+.student-form .comment-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.student-form .comment-group input,
+.student-form .comment-group select {
+    width: 100%;
+    padding: 80px; /* Adjusted padding for consistency */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+
+/* Cancel Button */ 
+.cancel-button { 
+    position:relative;
+    bottom: 5px; left: 730px; 
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+} 
+
+.cancel-button:hover { 
+    background-color:rgb(176, 120, 120)
+}
+
+.post-button { 
+    display: flex;
+    justify-content: right;
+    margin: top;
+    background-color: #23bf38; 
+    
+    border: none; 
+    padding: 25px; 
+    
+    cursor: pointer; 
+    border-radius: 4px; 
+    color: white;
+} 
+
+.post-button:hover { 
+    background-color:rgb(24, 209, 46)
+}
+
+.student-form .post-button .button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+
+
