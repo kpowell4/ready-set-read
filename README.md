@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # bookstoreapp
 This project is a library management system for a final application project.
 
@@ -9,3 +10,7 @@ Students/members have the ability to view books, search for books, submit recomm
 # librarymananagingsystem
 This project code is for a final project
 >>>>>>> 1e228582142b69bbc04173a65348bb86aec92cec
+=======
+# ready-set-read
+Capstone Project
+>>>>>>> a840382636be4171adcbe0ebf4a95e3d1adf46d8
